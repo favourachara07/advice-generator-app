@@ -21,7 +21,6 @@ body{
     justify-content: flex-start;
     align-items: center;
     flex-direction: column;
-    margin-bottom: 2rem;
     padding-bottom: 9rem;
 }
 .title{
@@ -37,7 +36,6 @@ body{
 .divide{
     position: absolute;
     top: calc(50% + 5rem);
-    margin-top: 2rem;
     width: 20rem;
 }
 .dice{
@@ -53,8 +51,8 @@ body{
     align-content: center;
     justify-content: center;
     flex-wrap: wrap;
-    /* position: absolute;
-    top: 30rem; */
+    position: absolute;
+    top: 30rem;
     transition: all .3s ease-in-out;
 }
 .circle:hover{
