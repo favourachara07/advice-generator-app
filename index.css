@@ -26,6 +26,8 @@ body{
 .title{
     color: hsl(150, 100%, 66%);
     margin: 2rem 0 1.5rem 0;
+    letter-spacing: .2rem;
+    font-size: .8rem;
 }
 .advice{
     color: hsl(193, 38%, 86%);

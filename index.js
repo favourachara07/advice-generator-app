@@ -6,7 +6,7 @@ const getAdvice=()=>{
     function processData(data) {
         // Process the data received from the API
         console.log(data.slip)
-        adviceId.textContent=data.slip.id
+        adviceId.textContent=`#${data.slip.id}`
         advice.textContent=`${data.slip.advice}`
     }
 
